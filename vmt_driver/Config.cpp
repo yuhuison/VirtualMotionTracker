@@ -102,7 +102,7 @@ namespace VMTDriver {
 	{
 		if (!j.contains("RoomMatrix"))
 		{
-			j["RoomMatrix"] = {};
+			j["RoomMatrix"] = {1,0,0,0,0,1,0,0,0,0,1,0};
 		}
 		if (!j.contains("ReceivePort"))
 		{
